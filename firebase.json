@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "fire-chat-23",
     "public": "build",
     "ignore": [
       "firebase.json",
