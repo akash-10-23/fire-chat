@@ -1,5 +1,5 @@
 # Fire Chat
 
-A normal chat app using ReactJS and Firebase.
+A normal chat room app using ReactJS and Firebase.
 
-This is my first time trying to add a Firebase backend to a React App, hope it goes well🤞🏽.
+Working web app : [Fire Chat🔥](https://fire-chat-ea3df.web.app/)
