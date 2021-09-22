@@ -38,5 +38,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0"
+  },
+  "build:prod":"env-cmd -f .env.production npm run build && firebase deploy -P prod"
 }

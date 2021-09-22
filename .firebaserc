@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "fire-chat-ea3df"
-  }
+    "default": "fire-chat-ea3df",
+    "prod": "fire-chat-ea3df"
+  },
+  "targets": {}
 }
