@@ -9,8 +9,6 @@ import SignOut from './components/SignOut';
 import ChatRoom from './components/ChatRoom';
 import {auth} from './Auth';
 
-require('dotenv').config();
-
 function App() {
 
   const [user] = useAuthState(auth);
