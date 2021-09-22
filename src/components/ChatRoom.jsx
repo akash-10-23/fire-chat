@@ -1,11 +1,11 @@
 import React, {useRef, useState} from 'react';
-import firebase from 'firebase/compat/app';
-import 'firebase/compat/firestore';
-import 'firebase/compat/auth';
-import 'firebase/compat/analytics';
+
 import {useCollectionData} from 'react-firebase-hooks/firestore';
 import ChatMessage from './ChatMessage';
-import {auth, firestore} from '../Auth';
+import firebase from '../Auth';
+
+const auth = firebase.auth();
+const firestore = firebase.firestore();
 
 function ChatRoom() {
     const dummy = useRef();

@@ -1,5 +1,7 @@
 import React from 'react';
-import {auth} from '../Auth';
+import firebase from '../Auth';
+
+const auth = firebase.auth();
 
 function ChatMessage(props) {
     const { text, uid, photoURL } = props.message;

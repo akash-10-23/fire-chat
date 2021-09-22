@@ -7,7 +7,9 @@ import {useAuthState} from 'react-firebase-hooks/auth';
 import SignIn from './components/SignIn';
 import SignOut from './components/SignOut';
 import ChatRoom from './components/ChatRoom';
-import {auth} from './Auth';
+import firebase from './Auth';
+
+const auth = firebase.auth();
 
 function App() {
 
