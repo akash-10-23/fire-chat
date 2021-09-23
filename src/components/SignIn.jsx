@@ -12,8 +12,11 @@ function SignIn(){
   
     return (
       <div>
-        <button className="sign-in" onClick={signInWithGoogle}>Sign in with Google</button>
-        <p>Do not violate the community guidline or else you will be banned for eternity!</p>
+          <button className="sign-in btn btn-block btn-social btn-google" onClick={signInWithGoogle}>
+            <i class="fab fa-google"></i>
+              Sign In with Google
+          </button>
+        <p className="guide">Do not violate the community guidline or else you will be banned for eternity!</p>
       </div>
     );
   }
